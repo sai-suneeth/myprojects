@@ -1,13 +1,6 @@
 var REDIRECT_URL = null;
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB0fEeHLqSc_xvrHSq7wFEC2CxZevORaFE",
-    authDomain: "kaboom-gaming-d326a.firebaseapp.com",
-    projectId: "kaboom-gaming-d326a",
-    storageBucket: "kaboom-gaming-d326a.appspot.com",
-    messagingSenderId: "856036165098",
-    appId: "1:856036165098:web:d09ca266a93d3103975e93",
-    measurementId: "G-38YKV3BR09"
 };
 
 // Initialize Firebase
@@ -58,4 +51,5 @@ function loginUser() {
 setTimeout(()=>{
     var params = new URLSearchParams(window.location.search);
     REDIRECT_URL = params.get('type') || './dashboard.html';
+
 },200)
