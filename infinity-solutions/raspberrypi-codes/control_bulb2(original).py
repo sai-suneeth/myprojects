@@ -86,10 +86,10 @@ REQUIRED_CONTROLLERS = 1
 update_lock = threading.Lock()
 
 # Telegram Bot setup
-"""TELEGRAM_BOT_TOKEN_1 = '7492087492:AAEBzZtVew7v3RrljxDel-bWhCTXWHi2K3o'
-CHAT_ID_1 = '-1002244589597'
-TELEGRAM_BOT_TOKEN_2 = '7007979375:AAFQ_u6-mFhfOyA4h__5221qvNoyTQCr4oA'
-CHAT_ID_2 = '-1002244589597'
+"""TELEGRAM_BOT_TOKEN_1 = ''
+CHAT_ID_1 = ''
+TELEGRAM_BOT_TOKEN_2 = ''
+CHAT_ID_2 = ''
 
 bot1 = Bot(token=TELEGRAM_BOT_TOKEN_1)
 bot2 = Bot(token=TELEGRAM_BOT_TOKEN_2)
@@ -511,4 +511,5 @@ if __name__ == "__main__":
 
     # Run the Tkinter main loop
     root.mainloop()
+
 
