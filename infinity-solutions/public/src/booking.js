@@ -1,12 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const firebaseConfig = {
-        apiKey: "AIzaSyB0fEeHLqSc_xvrHSq7wFEC2CxZevORaFE",
-        authDomain: "kaboom-gaming-d326a.firebaseapp.com",
-        projectId: "kaboom-gaming-d326a",
-        storageBucket: "kaboom-gaming-d326a.appspot.com",
-        messagingSenderId: "856036165098",
-        appId: "1:856036165098:web:d09ca266a93d3103975e93",
-        measurementId: "G-38YKV3BR09"
+
     };
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
@@ -970,7 +964,6 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log("Order created:", order);
 
             const options = {
-                key: 'rzp_live_R6k1HefDG2Rc6W',
                 amount: order.amount,
                 currency: order.currency,
                 order_id: order.id,
@@ -1191,3 +1184,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setupEventListeners();
 });
+
